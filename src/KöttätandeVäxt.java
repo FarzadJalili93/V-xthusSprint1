@@ -14,3 +14,7 @@
          return WaterType.PROTEINDRYCK;
      }
  }
+//Sammanfattningsvis representerar klassen KöttätandeVäxt en köttätande växt och ärver egenskaper
+// från den övergripande Växt-klassen. Den specificerar sin egen logik för att beräkna mängden vatten
+// som behövs och överskuggar metoden getWaterType för att specificera en särskild vattentyp
+// för denna typ av växt (WaterType.PROTEINDRYCK).
